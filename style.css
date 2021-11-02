@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2b2f3c;
+}
+.progress{
+    background-color: #15171e;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    top: 180px;
+    margin-bottom: 50px;
+    box-shadow: 5px -10px 12px 3px rgba(0,0,0,0.3) inset; 
+    padding: 8px;
+}
+.fill{
+    background: linear-gradient(45deg, rgba(255,255,255,0.5) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5) 75%,transparent 75%,transparent);
+    background-size: 40px;
+    border-radius: 5px;
+    animation:  move 0.5s linear infinite;
+}
+@keyframes move {
+    100%{
+        background-position: 40px 0px;
+    }
+}
+.a{
+    background-color: red;
+    width: 65%;
+    height: 100%;
+}
+.b{
+    background-color: blue;
+    width: 65%;
+    height: 100%;
+}
+.c{
+    background-color: green;
+    width: 65%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
